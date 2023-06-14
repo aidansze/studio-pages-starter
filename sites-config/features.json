@@ -1,6 +1,14 @@
 {
   "features": [
     {
+      "name": "artist",
+      "streamId": "studio-stream-id",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    },
+    {
       "name": "product",
       "streamId": "skis",
       "templateType": "JS",
@@ -10,6 +18,26 @@
     }
   ],
   "streams": [
+    {
+      "$id": "studio-stream-id",
+      "localization": {
+        "locales": [
+          "en"
+        ],
+        "primary": false
+      },
+      "filter": {
+        "entityTypes": [
+          "ce_artist"
+        ]
+      },
+      "fields": [
+        "headshot",
+        "name",
+        "c_biography",
+        "slug"
+      ]
+    },
     {
       "$id": "skis",
       "filter": {

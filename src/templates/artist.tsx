@@ -1,12 +1,14 @@
 import { GetPath, TemplateConfig, TemplateProps } from "@yext/pages";
+import BigButton from "../components/BigButton";
 import Paragraph from "../components/Paragraph";
+import ProductImage from "../components/ProductImage";
 
 export const config: TemplateConfig = {
   stream: {
     $id: "studio-stream-id",
     localization: { locales: ["en"], primary: false },
-    filter: { entityIds: ["9089058652563388842"] },
-    fields: ["c_biography", "slug"],
+    filter: { entityTypes: ["ce_artist"] },
+    fields: ["headshot", "name", "c_biography", "slug"],
   },
 };
 export const getPath: GetPath<TemplateProps> = ({
@@ -17,10 +19,14 @@ export const getPath: GetPath<TemplateProps> = ({
 
 export default function artist({ document }: TemplateProps) {
   return (
-    <Paragraph
-      value="haha"
-      textSize="base"
-      fontWeight="bold"
-    />
+    <>
+      <ProductImage src="" alt={`${document.name}`} />
+      <BigButton title={`${document.c_birthday}`} href="#" />
+      <Paragraph
+        value={`${document.c_biography}`}
+        textSize="base"
+        fontWeight="bold"
+      />
+    </>
   );
 }
