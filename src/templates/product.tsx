@@ -52,7 +52,7 @@ export default function Product({ document }: TemplateProps) {
                 <Reviews averageRating={5} reviewCount={1995} />
               </HStack>
               <Paragraph
-                value={`Hello ${document.description}`}
+                value={`This is a change ${document.description}`}
                 fontWeight="light"
                 textSize="base"
               />
