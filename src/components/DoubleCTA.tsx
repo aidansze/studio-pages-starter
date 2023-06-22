@@ -1,13 +1,13 @@
 import { twMerge } from "tailwind-merge";
 
-export interface CtaProps {
+export interface DoubleCTAProps {
   buttonText?: string;
   buttonSubtitle: string;
   url?: string;
   style?: string;
 }
 
-const Cta = (props: CtaProps) => {
+const DoubleCTA = (props: DoubleCTAProps) => {
   const { buttonText, buttonSubtitle, url, style } = props;
 
   return (
