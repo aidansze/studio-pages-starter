@@ -1,10 +1,9 @@
 {
   "features": [
     {
-      "name": "artist",
-      "streamId": "studio-stream-id",
+      "name": "featurelist",
       "templateType": "JS",
-      "entityPageSet": {
+      "staticPage": {
         "plugin": {}
       }
     },
@@ -19,42 +18,21 @@
   ],
   "streams": [
     {
-      "$id": "studio-stream-id",
+      "$id": "skis",
       "localization": {
         "locales": [
           "en"
         ],
         "primary": false
       },
-      "filter": {
-        "entityTypes": [
-          "ce_artist"
-        ]
-      },
-      "fields": [
-        "headshot",
-        "name",
-        "c_biography",
-        "slug"
-      ]
-    },
-    {
-      "$id": "skis",
       "filter": {
         "entityTypes": [
           "ce_product"
         ]
       },
-      "localization": {
-        "locales": [
-          "en"
-        ],
-        "primary": false
-      },
       "fields": [
         "name",
         "c_price",
-        "description",
         "photoGallery",
         "slug"
       ]
