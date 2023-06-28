@@ -1,4 +1,6 @@
 import { Accordion, AccordionItem } from '@szhsin/react-accordion';
+import React from 'react';
+
 
 export interface Accordion3Props {
     title1: string;

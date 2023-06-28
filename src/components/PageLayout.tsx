@@ -1,4 +1,5 @@
 import { HexColor } from "@yext/studio";
+import React from 'react';
 
 export interface PageLayoutProps {
   children: React.ReactNode;

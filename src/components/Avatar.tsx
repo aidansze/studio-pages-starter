@@ -1,3 +1,5 @@
+import React from 'react';
+
 
 const avatarBackground = {
   backgroundColor: '#fdd4d4',
@@ -6,6 +8,7 @@ const avatarBackground = {
   position: "relative",
   width: 135,
 };
+
 
 const avatarPic = {
   borderRadius: 67.5,
