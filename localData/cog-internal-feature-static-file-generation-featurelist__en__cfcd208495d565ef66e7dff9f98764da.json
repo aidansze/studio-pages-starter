@@ -1,0 +1,18 @@
+{
+	"__": {
+		"name": "featurelist",
+		"staticPage": {
+			"plugin": {}
+		},
+		"templateType": "JS"
+	},
+	"businessId": 3216907,
+	"key": "0:featurelist:knowledgeGraph:0:en",
+	"locale": "en",
+	"meta": {
+		"locale": "en"
+	},
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": ""
+}
