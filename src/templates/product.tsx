@@ -26,7 +26,11 @@ export const config: TemplateConfig = {
     $id: "skis",
     localization: { locales: ["en"], primary: false },
     filter: { entityTypes: ["ce_product"] },
+<<<<<<< HEAD
     fields: ["name", "c_price", "photoGallery", "slug"],
+=======
+    fields: ["name", "c_price", "description", "photoGallery", "slug"],
+>>>>>>> refs/remotes/origin/main
   },
 };
 export const getPath: GetPath<TemplateProps> = ({ document }) => {
@@ -36,8 +40,11 @@ export const getPath: GetPath<TemplateProps> = ({ document }) => {
 export default function Product({ document }: TemplateProps) {
   return (
     <>
+<<<<<<< HEAD
       <UrbanBanner text="Shop brand favorites, women's, men's, shoes, and apartment decor essentials on sale at" />
       <AnimaButton />
+=======
+>>>>>>> refs/remotes/origin/main
       <PageLayout backgroundColor="#FFFFFF">
         <HeaderSimple
           backgroundColor="#BAD8FD"
@@ -55,7 +62,15 @@ export default function Product({ document }: TemplateProps) {
                 <Label value={`$${document.c_price}`} />
                 <Reviews averageRating={5} reviewCount={1995} />
               </HStack>
+<<<<<<< HEAD
               <Paragraph value={``} fontWeight="light" textSize="base" />
+=======
+              <Paragraph
+                value={`This is a change ${document.description}`}
+                fontWeight="light"
+                textSize="base"
+              />
+>>>>>>> refs/remotes/origin/main
             </VStack>
             <ProductImage
               src={`${document.photoGallery[0].image.url}`}
