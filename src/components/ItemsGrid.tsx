@@ -1,3 +1,5 @@
+import React from 'react';
+
 export interface ItemsGridProps {
   children?: React.ReactNode;
   title?: string;

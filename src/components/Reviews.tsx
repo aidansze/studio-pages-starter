@@ -1,5 +1,7 @@
 import { StarIcon } from "@heroicons/react/24/solid";
 import { twMerge } from "tailwind-merge";
+import React from 'react';
+
 
 export interface ReviewsProps {
   averageRating?: number;

@@ -1,4 +1,6 @@
 import { Card, Grid, Text, Link } from "@nextui-org/react";
+import React from 'react';
+
 
 export interface NewCardProps {
     url: string;

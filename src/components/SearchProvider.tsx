@@ -1,3 +1,5 @@
+import React from 'react';
+
 import {
   SearchHeadlessProvider,
   provideHeadless,

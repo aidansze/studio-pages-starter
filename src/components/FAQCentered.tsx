@@ -1,5 +1,7 @@
 import { Disclosure } from "@headlessui/react";
 import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
+import React from 'react';
+
 
 export interface FAQCenteredProps {
   heading?: string;

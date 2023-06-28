@@ -1,4 +1,6 @@
 import { Player } from 'video-react';
+import React from 'react';
+
 
 export interface VideoProps {
     src?: string;

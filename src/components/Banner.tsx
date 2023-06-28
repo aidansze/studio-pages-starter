@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Cta from "./Cta";
 
 export type Address = {

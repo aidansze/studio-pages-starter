@@ -1,3 +1,5 @@
+import React from 'react';
+
 export interface ProductImage2Props {
   src: string;
   alt: string;

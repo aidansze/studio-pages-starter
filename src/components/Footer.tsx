@@ -1,3 +1,5 @@
+import React from 'react';
+
 export interface FooterProps {
   logo?: string;
   paragraph?: string;

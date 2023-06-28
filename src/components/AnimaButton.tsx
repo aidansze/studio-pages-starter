@@ -1,5 +1,7 @@
 import { DetailedHTMLProps, HTMLAttributes } from "react";
 import "./style.css";
+import React from 'react';
+
 
 const buttonHover = {
     backgroundColor: '#d9d9d9',
@@ -46,6 +48,3 @@ const AnimaButton = ({ Title, Subtitle}: AnimaButtonProps ) => {
 };
 
 export default AnimaButton;
-  
-
-

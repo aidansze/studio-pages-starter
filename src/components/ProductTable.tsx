@@ -1,3 +1,5 @@
+import React from 'react';
+
 export interface ProductTableProps {
   title: string;
   rockerType?: string;

@@ -1,3 +1,5 @@
+import React from 'react';
+
 export interface CenteredContainerProps {
   children: React.ReactNode;
 }

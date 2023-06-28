@@ -1,4 +1,6 @@
 import "./style.css";
+import React from 'react';
+
 
 export interface FeatureListRightProps {
   title?: string;

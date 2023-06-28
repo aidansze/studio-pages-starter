@@ -1,4 +1,6 @@
 import { twMerge } from "tailwind-merge";
+import React from 'react';
+
 
 export interface CtaProps {
   buttonText?: string;

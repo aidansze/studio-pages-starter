@@ -1,3 +1,5 @@
+import React from 'react';
+
 export interface ParagraphProps {
   value: string;
   textSize?: "xs" | "sm" | "base" | "lg" | "xl" | "2xl";

@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { ValignTextMiddle } from "../../styledMixins";
+import React from 'react';
+
 
 export interface WatchButtonProps {
   Title?: string;
