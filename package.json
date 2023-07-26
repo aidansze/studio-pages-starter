@@ -1,0 +1,62 @@
+{
+  "name": "studio-starter",
+  "version": "0.0.0",
+  "description": "An example repository to help users get started with React development on Yext Pages",
+  "author": "sumo@yext.com",
+  "type": "module",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "dev": "npm run build:local && yext pages generate-test-data && pages dev",
+    "build:local": "pages build",
+    "build": "yext pages build && yext pages generate-test-data && yext pages render",
+    "build:serve": "npm run build && yext pages serve",
+    "serve": "yext pages serve",
+    "features": "pages generate features",
+    "fmt": "prettier -w .",
+    "lint": "eslint .",
+    "clean": "rm -rf .artifact-output .yext/ dist/ localData sites-rendered-output",
+    "generate-notices": "generate-license-file --input package.json --output ./THIRD-PARTY-NOTICES --overwrite",
+    "studio": "npm run features && studio"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.13",
+    "@heroicons/react": "^2.0.16",
+    "@nextui-org/react": "^1.0.0-beta.13",
+    "@quarkly/components": "^0.2.75",
+    "@quarkly/widgets": "^0.2.75",
+    "@szhsin/react-accordion": "^1.2.1",
+    "@yext/react-components": "^0.0.5",
+    "@yext/search-headless-react": "^2.1.0",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.13.0",
+    "styled-components": "^5.3.10",
+    "tailwind-merge": "^1.6.2",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.49",
+    "@types/react-dom": "^17.0.17",
+    "@types/styled-components": "^5.1.26",
+    "@types/webfontloader": "^1.6.35",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "@vitejs/plugin-react": "^3.1.0",
+    "@yext/pages": "1.0.0-beta.20",
+    "@yext/studio": "^0.13.0",
+    "@yext/studio-plugin": "^0.13.0",
+    "autoprefixer": "^10.4.8",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.31.7",
+    "generate-license-file": "^1.3.0",
+    "postcss": "^8.4.16",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1"
+  }
+}
