@@ -24,6 +24,7 @@
   "dependencies": {
     "@headlessui/react": "^1.7.13",
     "@heroicons/react": "^2.0.16",
+    "@mui/material": "^5.14.0",
     "@nextui-org/react": "^1.0.0-beta.13",
     "@quarkly/components": "^0.2.75",
     "@quarkly/widgets": "^0.2.75",
@@ -47,8 +48,8 @@
     "@typescript-eslint/parser": "^5.36.2",
     "@vitejs/plugin-react": "^3.1.0",
     "@yext/pages": "1.0.0-beta.20",
-    "@yext/studio": "^0.13.0",
-    "@yext/studio-plugin": "^0.13.0",
+    "@yext/studio": "^0.15.0",
+    "@yext/studio-plugin": "^0.15.0",
     "autoprefixer": "^10.4.8",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-react": "^7.31.7",

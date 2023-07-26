@@ -1,0 +1,101 @@
+.Head2 {
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 84px;
+  }
+  
+  .Head2 .header {
+    background-color: #b58d8d;
+    border: 2px solid;
+    height: 84px;
+    width: 100%;
+  }
+  
+  .Head2 .tabs {
+    height: 12px;
+    top: 24px;
+    width: 100%;
+    justify-self: center;
+  }
+  
+  .Head2 .navbar {
+    height: 6px;
+    top: 2px;
+    width: 100%;
+  }
+  
+  .Head2 .vehicle,
+  .Head2 .home-owner,
+  .Head2 .bundle,
+  .Head2 .life,
+  .Head2 .renters {
+    color: #333333;
+    font-family: "Outfit", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    line-height: 10px;
+    white-space: nowrap;
+  }
+  
+  .Head2 .vehicle {
+    width: 45px;
+  }
+  
+  .Head2 .home-owner {
+    width: 56px;
+  }
+  
+  .Head2 .bundle {
+    width: 40px;
+  }
+  
+  .Head2 .life {
+    width: 27px;
+  }
+  
+  .Head2 .renters {
+    width: 47px;
+  }
+  
+  .Head2 .text-wrapper {
+    color: var(--pink);
+    font-family: "Piazzolla", Helvetica;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.13px;
+    line-height: 10px;
+    width: 72px;
+  }
+  
+  .Head2 .overlap-group {
+    border: 1.5px solid;
+    border-radius: 10px;
+    height: 40px;
+    top: 14px;
+    width: 150px;
+  }
+  
+  .Head2 .group {
+    height: 11px;
+    position: relative;
+    top: 3px;
+    width: 62px;
+  }
+  
+  .Head2 .contact {
+    font-family: "Outfit", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;  
+    bottom: 15px;
+  }
+  
+  .Head2 .phone-call {
+    height: 11px;
+    position: relative !important;
+    width: 11px !important;
+  }

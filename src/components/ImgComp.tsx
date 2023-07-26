@@ -6,34 +6,43 @@ export type picInfo = {
   };
 
 export interface ImgCompProps {
-    url?: string;
+    url: string;
     alt: string;
-    widthPct: number;
+    contWidth: number;
+    contHeight: number;
+    picWidth: number;
+    picHeight: number;
     border: "rounded-full" | "rounded-lg" | "rounded";
     padding: number;
-    picInfo?: picInfo;
+    blur?: "blur-none" | "blur-sm" | "blur" | "blur-lg";
+    filter?: "filter grayscale" | "" | "filter sepia" | "filter invert";
+    imgCrop: "object-contain" | "object-cover" | "object-fill";
+    dropShadow?: "drop-shadow" | "drop-shadow-2xl" | "drop-shadow-none"; 
 }
 
 export const initialProps: ImgCompProps = {
     alt: "your image here",
-    widthPct: 50,
+    url: "https://www.princeton.edu/sites/default/files/styles/1x_full_2x_half_crop/public/images/2022/02/KOA_Nassau_2697x1517.jpg?itok=Bg2K7j7J",
+    contWidth: 96,
+    contHeight: 96,
+    picWidth: 96,
+    picHeight: 96,
     border: "rounded",
-    padding: 0,
+    padding: 0,  
+    imgCrop: "object-cover",
 };
 
-const ImgComp = ({ picInfo, url, alt, widthPct, border, padding }: ImgCompProps) => {
+const ImgComp = ({ imgCrop, dropShadow, filter, blur, url, alt, contWidth, picWidth, contHeight, picHeight, border, padding }: ImgCompProps) => {
     return (
-        <div className={`${border} place-self-auto`}>
-            <img
-            alt={alt}
-            src={url}
-            width={`${widthPct}%`}
-            className={`${border} place-self-auto shadow-none hover:shadow-x2l p-${padding}`}
+        <div className={`w-${contWidth} h-${contHeight}`}>
+                <img
+                alt={alt}
+                src={url}
+                // width={`${widthPct}%`}
+                className={`w-${picWidth} h-${picHeight} ${border} ${imgCrop} ${blur} ${filter} p-${padding} ${dropShadow}`}
 
-            />
-            <h1>{picInfo?.caption}</h1>
+                />
         </div>
-
     );
 };
 

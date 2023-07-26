@@ -1,83 +1,3 @@
-
-  .box .group-wrapper {
-    border: 0px none;
-    height: 20%;
-    overflow-x: hidden;
-    width: 100%;
-  }
-  
-  .box .group {
-    height: 20%;
-    left: 0;
-    position: relative;
-    top: 0;
-    width: 100%;
-  }
-  
-  .box .overlap-group {
-    background: linear-gradient(180deg, rgba(105.61, 95.76, 218.88, 0.98) 0%, rgba(217, 217, 217, 0.81) 100%);
-    border-radius: 15px;
-    height: 20%;
-    position: relative;
-    width: 100%;
-  }
-  
-  .box .overlap {
-    background-color: #f39999;
-    border-radius: 15px;
-    height: 10%;
-    left: 1227px;
-    position: relative;
-    top: 13px;
-    width: 3.4%;
-  }
-  
-  .box .line {
-    height: 20%;
-    left: 11px;
-    object-fit: cover;
-    position: relative;
-    top: 11px;
-    width: 2%;
-  }
-  
-  .box .img {
-    height: 20%;
-    left: 10px;
-    object-fit: cover;
-    position: relative;
-    top: 11px;
-    width: 2%;
-  }
-  
-  .box .shop-brand-favorites {
-    color: #000000;
-    font-family: "Judson-Regular", Helvetica;
-    font-size: 24px;
-    font-weight: 400;
-    left: 59px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-    top: 24px;
-    white-space: nowrap;
-    width: 90.7%;
-  }
-  
-  .box .text-wrapper {
-    color: #000000;
-    font-family: "Judson-Regular", Helvetica;
-    font-size: 24px;
-    font-weight: 400;
-    letter-spacing: 0;
-  }
-  
-  .box .span {
-    font-family: "Judson-Bold", Helvetica;
-    font-weight: 700;
-  }
-
-
   .CTA-narrow {
     background-color: #f2f2f2;
     height: 240px;
@@ -279,3 +199,74 @@
     top: 8px;
     width: 0.7%;
   }
+
+  .box {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .box .group-wrapper {
+    border: 0px none;
+    height: 44px;
+    position: relative;
+    width: 126px;
+  }
+  
+  .box .group-1 {
+    left: 0 !important;
+    position: fixed !important;
+    top: 0 !important;
+  }
+
+  .group {
+    background: radial-gradient(50% 50% at 50% 50%, rgb(217.57, 101.72, 219.94) 0%, rgba(16.49, 73.22, 158.31, 0.6) 100%);
+    border-radius: 60px;
+    height: 44px;
+    position: relative;
+    width: 126px;
+  }
+  
+  .group .sign-up {
+    color: #ffffff;
+    font-family: "Lato", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    left: 33px;
+    letter-spacing: 0.7px;
+    line-height: 14px;
+    position: absolute;
+    top: 14px;
+    white-space: nowrap;
+  }
+
+ 
+
+  .avatarBackground {
+    background-color: '#fdd4d4';
+    border-radius: 67.5px;
+    height: 135px;
+    width: auto;
+    position: relative;
+  }
+  
+  
+  .avatarPic {
+    border-radius: 65px;
+    height: 125px;
+    width: 125px;
+    left: 5px;
+    top: 5px;
+    position: relative;
+    display: flex;
+  }
+  .star {
+    height: 80px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 82px;
+  }
+  

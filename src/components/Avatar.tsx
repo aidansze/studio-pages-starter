@@ -1,23 +1,5 @@
 import React from 'react';
-
-
-const avatarBackground = {
-  backgroundColor: '#fdd4d4',
-  borderRadius: 67.5,
-  height: 135,
-  position: "relative",
-  width: 135,
-};
-
-
-const avatarPic = {
-  borderRadius: 67.5,
-  height: 125,
-  position: "relative",
-  width: 125,
-  left: 5,
-  top: 5
-};
+import "./style.css";
 
 export interface AvatarProps {
   src: string;
@@ -31,8 +13,8 @@ export const initialProps: AvatarProps = {
 
 const Avatar = ({ src, alt }: AvatarProps) => {
   return (
-    <div style={avatarBackground}>
-      <img style={avatarPic} alt={alt} src={src} />
+    <div className="avatarBackground">
+      <img className="avatarPic" alt={alt} src={src} />
     </div>
   );
 };

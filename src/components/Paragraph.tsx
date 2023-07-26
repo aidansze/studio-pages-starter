@@ -13,19 +13,22 @@ export interface ParagraphProps {
     | "bold"
     | "extrabold"
     | "black";
+  textAlign?: "text-left" | "text-center" | "text-right";
+  textColor?: string;
 }
 
 export const initialProps: ParagraphProps = {
   value: "Paragraph",
   textSize: "base",
   fontWeight: "normal",
+  textAlign: "text-left",
 };
 
-const Paragraph = ({ value, textSize, fontWeight }: ParagraphProps) => {
+const Paragraph = ({ textColor, textAlign, value, textSize, fontWeight }: ParagraphProps) => {
   return (
     <section aria-labelledby="information-heading" className="mt-4">
       <div className="mt-4 space-y-6">
-        <p className={`text-${textSize} font-${fontWeight} text-gray-500`}>
+        <p className={`text-${textSize} ${textAlign} font-${fontWeight} text-gray-500`}>
           {value}
         </p>
       </div>

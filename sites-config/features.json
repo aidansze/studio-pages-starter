@@ -8,6 +8,21 @@
       }
     },
     {
+      "name": "Liberty",
+      "templateType": "JS",
+      "staticPage": {
+        "plugin": {}
+      }
+    },
+    {
+      "name": "NewSki",
+      "streamId": "studio-stream-id",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    },
+    {
       "name": "product",
       "streamId": "skis",
       "templateType": "JS",
@@ -17,6 +32,23 @@
     }
   ],
   "streams": [
+    {
+      "$id": "studio-stream-id",
+      "localization": {
+        "locales": [
+          "en"
+        ],
+        "primary": false
+      },
+      "filter": {
+        "entityIds": [
+          "4889249132731136925"
+        ]
+      },
+      "fields": [
+        "slug"
+      ]
+    },
     {
       "$id": "skis",
       "localization": {
