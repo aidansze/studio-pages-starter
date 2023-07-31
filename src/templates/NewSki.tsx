@@ -6,7 +6,7 @@ import PaymentPlans from "../components/PaymentPlans";
 
 export const config: TemplateConfig = {
   stream: {
-    $id: "studio-stream-id",
+    $id: "NewSki-stream-id",
     localization: { locales: ["en"], primary: false },
     filter: { entityIds: ["4889249132731136925"] },
     fields: ["slug"],

@@ -9,15 +9,7 @@
     },
     {
       "name": "NewSki",
-      "streamId": "studio-stream-id",
-      "templateType": "JS",
-      "entityPageSet": {
-        "plugin": {}
-      }
-    },
-    {
-      "name": "PaymentPlans",
-      "streamId": "studio-stream-id",
+      "streamId": "NewSki-stream-id",
       "templateType": "JS",
       "entityPageSet": {
         "plugin": {}
@@ -34,7 +26,7 @@
   ],
   "streams": [
     {
-      "$id": "studio-stream-id",
+      "$id": "NewSki-stream-id",
       "localization": {
         "locales": [
           "en"
@@ -44,23 +36,6 @@
       "filter": {
         "entityIds": [
           "4889249132731136925"
-        ]
-      },
-      "fields": [
-        "slug"
-      ]
-    },
-    {
-      "$id": "studio-stream-id",
-      "localization": {
-        "locales": [
-          "en"
-        ],
-        "primary": false
-      },
-      "filter": {
-        "entityTypes": [
-          "ce_paymentPlan"
         ]
       },
       "fields": [
