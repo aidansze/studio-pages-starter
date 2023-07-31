@@ -1,5 +1,11 @@
 {
+	"Liberty": [
+		"cog-internal-feature-static-file-generation-Liberty__en__cfcd208495d565ef66e7dff9f98764da.json"
+	],
+	"NewSki": [
+		"NewSki-stream-id__en__9119fc13c1a79f665b8d576667d134c6.json"
+	],
 	"product": [
-		"skis__en__408b6cfef8e6aafd9275e0cdc36f7c44.json"
+		"skis__en__9119fc13c1a79f665b8d576667d134c6.json"
 	]
 }

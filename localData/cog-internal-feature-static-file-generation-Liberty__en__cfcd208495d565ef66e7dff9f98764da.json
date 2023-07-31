@@ -1,13 +1,13 @@
 {
 	"__": {
-		"name": "featurelist",
+		"name": "Liberty",
 		"staticPage": {
 			"plugin": {}
 		},
 		"templateType": "JS"
 	},
 	"businessId": 3216907,
-	"key": "0:featurelist:knowledgeGraph:0:en",
+	"key": "0:Liberty:knowledgeGraph:0:en",
 	"locale": "en",
 	"meta": {
 		"locale": "en"

@@ -3,14 +3,13 @@
 		"entityPageSet": {
 			"plugin": {}
 		},
-		"name": "product",
-		"streamId": "skis",
+		"name": "NewSki",
+		"streamId": "NewSki-stream-id",
 		"templateType": "JS"
 	},
 	"businessId": 3216907,
-	"c_price": "699.99",
 	"id": "4889249132731136925",
-	"key": "0:product:knowledgeGraph:41852414:en",
+	"key": "0:NewSki:knowledgeGraph:41852414:en",
 	"locale": "en",
 	"meta": {
 		"entityType": {
@@ -19,16 +18,6 @@
 		},
 		"locale": "en"
 	},
-	"name": "Blazing Fast Skis",
-	"photoGallery": [
-		{
-			"image": {
-				"height": 2384,
-				"url": "http://a.mktgcdn.com/p-sandbox/JREfr7-4xcZVsBwov7Yo1NgjVA8fFM3jJA0I49T8Org/2384x2384.jpg",
-				"width": 2384
-			}
-		}
-	],
 	"siteDomain": "",
 	"siteId": 0,
 	"siteInternalHostName": "",
