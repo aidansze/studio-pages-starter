@@ -1,14 +1,14 @@
 {
 	"__": {
 		"entityPageSet": {},
-		"name": "payplan",
-		"streamId": "studio-stream-id-payplan",
+		"name": "PayPlan",
+		"streamId": "studio-stream-id-PayPlan",
 		"templateType": "JS"
 	},
 	"businessId": 3216907,
 	"c_planFeature": "100 Guest Passes",
 	"id": "8371987650476842520",
-	"key": "0:payplan:knowledgeGraph:43517859:en",
+	"key": "0:PayPlan:knowledgeGraph:43517859:en",
 	"locale": "en",
 	"meta": {
 		"entityType": {
@@ -17,7 +17,7 @@
 		},
 		"locale": "en"
 	},
-	"name": "King",
+	"name": "Luxury",
 	"price": {
 		"currencyCode": "USD",
 		"value": "150"

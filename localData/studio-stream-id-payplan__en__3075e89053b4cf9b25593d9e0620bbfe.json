@@ -1,14 +1,14 @@
 {
 	"__": {
 		"entityPageSet": {},
-		"name": "payplan",
-		"streamId": "studio-stream-id-payplan",
+		"name": "PayPlan",
+		"streamId": "studio-stream-id-PayPlan",
 		"templateType": "JS"
 	},
 	"businessId": 3216907,
 	"c_planFeature": "1 month for free!",
 	"id": "8943453949463154792",
-	"key": "0:payplan:knowledgeGraph:43517760:en",
+	"key": "0:PayPlan:knowledgeGraph:43517760:en",
 	"locale": "en",
 	"meta": {
 		"entityType": {

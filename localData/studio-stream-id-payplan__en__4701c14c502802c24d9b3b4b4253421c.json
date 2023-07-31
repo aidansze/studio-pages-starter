@@ -1,14 +1,14 @@
 {
 	"__": {
 		"entityPageSet": {},
-		"name": "payplan",
-		"streamId": "studio-stream-id-payplan",
+		"name": "PayPlan",
+		"streamId": "studio-stream-id-PayPlan",
 		"templateType": "JS"
 	},
 	"businessId": 3216907,
 	"c_planFeature": "25% discount on site-wide purchases.",
 	"id": "144263270651948111",
-	"key": "0:payplan:knowledgeGraph:43500886:en",
+	"key": "0:PayPlan:knowledgeGraph:43500886:en",
 	"locale": "en",
 	"meta": {
 		"entityType": {

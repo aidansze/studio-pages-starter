@@ -5,10 +5,10 @@
 	"NewSki": [
 		"NewSki-stream-id__en__9119fc13c1a79f665b8d576667d134c6.json"
 	],
-	"payplan": [
-		"studio-stream-id-payplan__en__4701c14c502802c24d9b3b4b4253421c.json",
-		"studio-stream-id-payplan__en__3075e89053b4cf9b25593d9e0620bbfe.json",
-		"studio-stream-id-payplan__en__9f956c602404027d5070f79232f224c9.json"
+	"PayPlan": [
+		"studio-stream-id-PayPlan__en__4701c14c502802c24d9b3b4b4253421c.json",
+		"studio-stream-id-PayPlan__en__3075e89053b4cf9b25593d9e0620bbfe.json",
+		"studio-stream-id-PayPlan__en__9f956c602404027d5070f79232f224c9.json"
 	],
 	"product": [
 		"skis__en__9119fc13c1a79f665b8d576667d134c6.json"
