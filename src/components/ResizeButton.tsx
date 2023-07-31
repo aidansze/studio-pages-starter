@@ -1,4 +1,3 @@
-import React from "react";
 import "../resizeButton.css";
 
 interface ResizeButtonProps {
