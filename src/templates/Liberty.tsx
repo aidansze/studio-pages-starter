@@ -16,8 +16,6 @@ export default function Liberty() {
       ]}
       fontWeight="font-normal"
       textColor="blue-900"
-      testObject={{ text: "", otherText: "" }}
-      testArray={[]}
     />
   );
 }

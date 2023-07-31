@@ -1,13 +1,6 @@
 {
   "features": [
     {
-      "name": "featurelist",
-      "templateType": "JS",
-      "staticPage": {
-        "plugin": {}
-      }
-    },
-    {
       "name": "Liberty",
       "templateType": "JS",
       "staticPage": {
