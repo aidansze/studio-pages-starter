@@ -1,5 +1,3 @@
-import React from "react";
-
 export interface LoginFormProps {
   title: string;
   titleFontSize: "text-2xl" | "text-3xl" | "text-4xl";
