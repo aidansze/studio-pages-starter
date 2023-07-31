@@ -3,7 +3,6 @@ import CarouselAllstate from "../components/CarouselAllstate";
 import FooterAllstate from "../components/FooterAllstate";
 import HeaderAllstate from "../components/HeaderAllstate";
 import PaymentPlans from "../components/PaymentPlans";
-import ResizeButton from "../components/ResizeButton";
 
 export const config: TemplateConfig = {
   stream: {
@@ -73,7 +72,6 @@ export default function NewSki() {
           },
         ]}
       />
-      <ResizeButton text={`This button resizes`} />
       <FooterAllstate
         companyName="Allstate"
         slogan={`Allstate is awesome.`}
