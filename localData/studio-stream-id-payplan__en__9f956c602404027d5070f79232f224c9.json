@@ -1,0 +1,31 @@
+{
+	"__": {
+		"entityPageSet": {},
+		"name": "payplan",
+		"streamId": "studio-stream-id-payplan",
+		"templateType": "JS"
+	},
+	"businessId": 3216907,
+	"c_planFeature": "100 Guest Passes",
+	"id": "8371987650476842520",
+	"key": "0:payplan:knowledgeGraph:43517859:en",
+	"locale": "en",
+	"meta": {
+		"entityType": {
+			"id": "ce_PaymentPlan",
+			"uid": 123749
+		},
+		"locale": "en"
+	},
+	"name": "King",
+	"price": {
+		"currencyCode": "USD",
+		"value": "150"
+	},
+	"ref_listings": [],
+	"ref_reviewsAgg": [],
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"uid": 43517859
+}

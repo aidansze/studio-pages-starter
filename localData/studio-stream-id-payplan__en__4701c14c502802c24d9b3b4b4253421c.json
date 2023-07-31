@@ -1,0 +1,31 @@
+{
+	"__": {
+		"entityPageSet": {},
+		"name": "payplan",
+		"streamId": "studio-stream-id-payplan",
+		"templateType": "JS"
+	},
+	"businessId": 3216907,
+	"c_planFeature": "25% discount on site-wide purchases.",
+	"id": "144263270651948111",
+	"key": "0:payplan:knowledgeGraph:43500886:en",
+	"locale": "en",
+	"meta": {
+		"entityType": {
+			"id": "ce_PaymentPlan",
+			"uid": 123749
+		},
+		"locale": "en"
+	},
+	"name": "Starter",
+	"price": {
+		"currencyCode": "USD",
+		"value": "25"
+	},
+	"ref_listings": [],
+	"ref_reviewsAgg": [],
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"uid": 43500886
+}

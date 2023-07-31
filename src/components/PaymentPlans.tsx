@@ -3,7 +3,7 @@ export interface PaymentPlansProps {
   title: string;
   plans: {
     name: string;
-    price: number;
+    price?: string;
     features: string[];
   }[];
 }
@@ -13,17 +13,17 @@ export const initialProps: PaymentPlansProps = {
   plans: [
     {
       name: "Basic Plan",
-      price: 19.99,
+      price: "19.99",
       features: ["Feature 1", "Feature 2", "Feature 3"],
     },
     {
       name: "Premium Plan",
-      price: 29.99,
+      price: "29.99",
       features: ["Feature 1", "Feature 2", "Feature 3"],
     },
     {
       name: "Ultimate Plan",
-      price: 39.99,
+      price: "39.99",
       features: ["Feature 1", "Feature 2", "Feature 3"],
     },
   ],
@@ -40,7 +40,7 @@ const PaymentPlans = ({ title, plans }: PaymentPlansProps) => {
               {plans.map((plan, index) => (
                 <div key={index}>
                   <h3 className="text-2xl font-semibold text-gray-900">{plan.name}</h3>
-                  <p className="mt-2 text-lg text-gray-500">${plan.price.toFixed(2)} / month</p>
+                  <p className="mt-2 text-lg text-gray-500">${plan.price} / month</p>
                   <ul className="mt-6 space-y-4">
                     {plan.features.map((feature, index) => (
                       <li key={index} className="flex items-start">

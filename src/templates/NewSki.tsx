@@ -15,7 +15,7 @@ export const config: TemplateConfig = {
 export const getPath: GetPath<TemplateProps> = ({
   document,
 }: TemplateProps) => {
-  return `${document.slug}1`;
+  return `${document.slug}`;
 };
 
 export default function NewSki() {
@@ -57,17 +57,17 @@ export default function NewSki() {
         plans={[
           {
             name: "Basic Plan",
-            price: 19.99,
+            price: "19.99",
             features: ["Feature 1", "Feature 2", "Feature 3"],
           },
           {
             name: "Premium Plan",
-            price: 29.99,
+            price: "29.99",
             features: ["Feature 1", "Feature 2", "Feature 3"],
           },
           {
             name: "Ultimate Plan",
-            price: 39.99,
+            price: "39.99",
             features: ["Feature 1", "Feature 2", "Feature 3"],
           },
         ]}
