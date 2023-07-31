@@ -1,6 +1,5 @@
 import { GetPath, TemplateProps } from "@yext/pages";
 import LibertyMutualNavigationBar from "../components/LibertyMutualNavigationBar";
-import ResizeButton from "../components/ResizeButton";
 
 export const getPath: GetPath<TemplateProps> = () => {
   return "Liberty";
@@ -8,20 +7,17 @@ export const getPath: GetPath<TemplateProps> = () => {
 
 export default function Liberty() {
   return (
-    <>
-      <ResizeButton text="This Button Resizes" />
-      <LibertyMutualNavigationBar
-        logoSrc={`https://1000logos.net/wp-content/uploads/2020/09/Liberty-Mutual-Logo.png`}
-        links={[
-          { text: "Shop insurance", url: "/Shop" },
-          { text: "Claims", url: "/Claims" },
-          { text: "Customer Support", url: "/CustomerSupport" },
-        ]}
-        fontWeight="font-normal"
-        textColor="blue-900"
-        testObject={{ text: "", otherText: "" }}
-        testArray={[]}
-      />
-    </>
+    <LibertyMutualNavigationBar
+      logoSrc={`https://1000logos.net/wp-content/uploads/2020/09/Liberty-Mutual-Logo.png`}
+      links={[
+        { text: "Shop insurance", url: "/Shop" },
+        { text: "Claims", url: "/Claims" },
+        { text: "Customer Support", url: "/CustomerSupport" },
+      ]}
+      fontWeight="font-normal"
+      textColor="blue-900"
+      testObject={{ text: "", otherText: "" }}
+      testArray={[]}
+    />
   );
 }
