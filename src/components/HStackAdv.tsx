@@ -12,7 +12,7 @@ export interface HStackAdvProps {
   };
   
   const HStackAdv = ({ children, space, justify, margin }: HStackAdvProps) => {
-    return (<div className={`flex ${justify} space-x-${space} mx-${margin}`}>{children}</div>);
+    return (<div className={`my-12 flex ${justify} space-x-${space} mx-${margin}`}>{children}</div>);
   };
   
   export default HStackAdv;

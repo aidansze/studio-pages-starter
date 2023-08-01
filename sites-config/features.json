@@ -16,6 +16,14 @@
       }
     },
     {
+      "name": "PayPlan",
+      "streamId": "studio-stream-id",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    },
+    {
       "name": "product",
       "streamId": "skis",
       "templateType": "JS",
@@ -41,6 +49,21 @@
       "fields": [
         "slug"
       ]
+    },
+    {
+      "$id": "studio-stream-id",
+      "localization": {
+        "locales": [
+          "en"
+        ],
+        "primary": false
+      },
+      "filter": {
+        "entityTypes": [
+          "ce_PaymentPlan"
+        ]
+      },
+      "fields": []
     },
     {
       "$id": "skis",

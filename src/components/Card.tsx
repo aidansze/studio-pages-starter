@@ -10,6 +10,7 @@ export interface CardProps {
   subtitleFontWeight: "font-light" | "font-normal" | "font-semibold";
   subtitleTextColor: "text-gray-700" | "text-gray-400";
   url: string;
+  features?: string[];
 }
 
 const Card = ({

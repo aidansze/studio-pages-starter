@@ -8,7 +8,7 @@ export const initialProps: HStackProps = {
 };
 
 const HStack = ({ children, space }: HStackProps) => {
-  return (<div className={`flex items-center space-x-${space}`}>{children}</div>);
+  return (<div className={`grid-items-stretch flex items-center space-x-${space}`}>{children}</div>);
 };
 
 export default HStack;

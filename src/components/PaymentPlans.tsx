@@ -1,4 +1,3 @@
-
 export interface PaymentPlansProps {
   title: string;
   plans: {
