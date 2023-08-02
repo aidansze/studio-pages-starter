@@ -1,13 +1,6 @@
 {
   "features": [
     {
-      "name": "Liberty",
-      "templateType": "JS",
-      "staticPage": {
-        "plugin": {}
-      }
-    },
-    {
       "name": "NewSki",
       "streamId": "NewSki-stream-id",
       "templateType": "JS",
